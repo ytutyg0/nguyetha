@@ -32,37 +32,37 @@
                 <div class="mb-3">
                     <label for="username">Tên</label>
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Username" value="{{user.name}}" name="name" required="required">
-                        <div class="invalid-feedback" style="width: 100%;"> Your username is required. </div>
+                        <input type="text" class="form-control" placeholder="Nhập tên người nhận" value="{{user.name}}" name="name" required="required">
+                        <div class="invalid-feedback" style="width: 100%;"> Vui lòng nhập tên người nhận. </div>
                     </div>
                 </div>
                 <div class="mb-3">
                     <label for="phone">Số điện thoại</label>
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="0123456789" value="{{user.phone}}" name="phone"
+                        <input type="text" class="form-control" placeholder="Nhập số điện thoại của người nhận" value="{{user.phone}}" name="phone"
                         pattern="[0-9]{8,15}" title="Số điện thoại phải bao gồm 8-15 chữ số" required="required">
                         <div class="invalid-feedback" style="width: 100%;"> Vui lòng nhập số điện thoại. </div>
                     </div>
                 </div>
                 <div class="mb-3">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" placeholder="your_email@gmail.com" value="{{user.email}}" name="email" required="required">
+                    <input type="email" class="form-control" placeholder="VD: your_email@gmail.com" value="{{user.email}}" name="email" required="required">
                     <div class="invalid-feedback"> Vui lòng nhập địa chỉ email khả dụng. </div>
                 </div>
                 <div class="mb-3">
                     <label for="address">Địa chỉ</label>
-                    <input type="text" class="form-control" placeholder="123 Trần Phú" value="{{user.address}}" name="address" required="required">
+                    <input type="text" class="form-control" placeholder="Địa chỉ nhận hàng" value="{{user.address}}" name="address" required="required">
                     <div class="invalid-feedback"> Vui lòng nhập địa chỉ giao hàng. </div>
                 </div>
                 <div class="row">
                     <div class="col-md-5 mb-3">
                         <label for="country">Quốc gia</label>
-                        <input type="text" class="form-control" placeholder="Việt Nam" name="country" required="required">
+                        <input type="text" class="form-control" placeholder="VD: Việt Nam" name="country" required="required">
                         <div class="invalid-feedback"> Vui lòng nhập quốc gia khả dụng. </div>
                     </div>
                     <div class="col-md-4 mb-3">
                         <label for="state">Thành phố</label>
-                        <input type="text" class="form-control" placeholder="Hà Nội" name="city" required="required">
+                        <input type="text" class="form-control" placeholder="VD: Hà Nội" name="city" required="required">
                         <div class="invalid-feedback"> Vui lòng nhập thành phố khả dụng. </div>
                     </div>
                     <div class="col-md-3 mb-3">
