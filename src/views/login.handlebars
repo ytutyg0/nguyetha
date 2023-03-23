@@ -9,9 +9,9 @@
         <div class="login-container">
             <form class="Login-form" action="/login" method="POST">
                 <img class="avatar" src="/img/undraw_male_avatar_323b.svg">
-                <h2>Wellcome</h2>
+                <h2>CHÀO MỪNG BẠN</h2>
                 <div class="signup">
-                    <a href="/signup">Sign up?</a>
+                    <a href="/signup">Đăng ký ?</a>
                 </div>
                 {{#if hasErrors}}
                 <div class="messages">
@@ -33,18 +33,18 @@
                         <i class="fa fa-lock" aria-hidden="true"></i>
                     </div>
                     <div>
-                        <input class="input" type="password" placeholder="Password" name="password">
+                        <input class="input" type="password" placeholder="Mật khẩu" name="password">
                     </div>
                 </div>
                 <div class="forgotpwd">
-                    <a href="/resetpassword">Forgot password?</a>
+                    <a href="/resetpassword">Quên mật khẩu ?</a>
                 </div>
                 <input type="hidden" name="_csrf" value="{{csrfToken}}">
-                <input type="submit" class="btn" value="Login">
-                <p class="social-text">Or Sign up with social platforms</p>
+                <input type="submit" class="btn" value="Đăng nhập">
+                <p class="social-text">Đăng ký qua tài khoản mạng xã hội</p>
                 <div class="social-media">
                     <a href="/auth/fb">
-                        Continue with Facebook
+                        Kết nối với Facebook
                     </a>
                 </div>
             </form>

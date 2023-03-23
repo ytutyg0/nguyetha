@@ -1,64 +1,64 @@
 {{> header}}
 <div class="container create-form">
-    <h3>Update a product</h3>
+    <h3>CẬP NHẬT THÔNG TIN SẢN PHẨM</h3>
     <form method="POST" action="/admin/{{product._id}}?_method=PUT">
         <div class="form-row">
             <div class="form-group col-md-6">
-                <label for="title">Product name</label>
-                <input type="text" class="form-control" value="{{product.title}}" name="title" placeholder="Product name">
+                <label for="title">Tên sản phẩm</label>
+                <input type="text" class="form-control" value="{{product.title}}" name="title" placeholder="Nhập tên sản phẩm">
             </div>
             <div class="form-group col-md-6">
-                <label for="brand">Brand name</label>
-                <input type="text" class="form-control" value="{{product.brand}}" name="brand" placeholder="Brand name">
+                <label for="brand">Tên thương hiệu</label>
+                <input type="text" class="form-control" value="{{product.brand}}" name="brand" placeholder="Nhập tên thương hiệu">
             </div>
         </div>
         <div class="form-group">
-            <label for="type">Type of product</label>
+            <label for="type">Loại sản phẩm</label>
             <input type="text" class="form-control" value="{{product.type}}" name="type" placeholder="Serum, Cleansing, Moisturisers , .. ">
         </div>
         <div class="form-group">
-            <label for="qty">Quantity of product</label>
-            <input type="text" class="form-control" value="{{product.qty}}" name="qty" placeholder="number: 10 ....">
+            <label for="qty">Số lượng sản phẩm</label>
+            <input type="text" class="form-control" value="{{product.qty}}" name="qty" placeholder="Nhập số lượng sản phẩm">
         </div>
         <div class="form-group">
-            <label for="price">Price of product</label>
-            <input type="text" class="form-control" value="{{product.price}}" name="price" placeholder="number: 10 ....">
+            <label for="price">Giá sản phẩm</label>
+            <input type="text" class="form-control" value="{{product.price}}" name="price" placeholder="Nhập giá sản phẩm (Đơn vị: VND)">
         </div>
         <div class="form-group">
-            <label for="salePrice">Sale Price of product</label>
-            <input type="text" class="form-control" value="{{product.salePrice}}" name="salePrice" placeholder="number: 10 ....">
+            <label for="salePrice">Giá khuyễn mãi</label>
+            <input type="text" class="form-control" value="{{product.salePrice}}" name="salePrice" placeholder="Nhập giá sản phẩm (Đơn vị: VND)">
         </div>
         <div class="form-group">
-                <label for="img">Image</label>
+                <label for="img">Ảnh sản phẩm</label>
                 <input type="file" class="form-control-file" id="img" name="img">
         </div>
         <div class="form-group">
-            <label for="tag">Tag</label>
-            <input type="text" class="form-control" value="{{product.tag}}" name="tag" placeholder="Tag name ....">
+            <label for="tag">Thẻ</label>
+            <input type="text" class="form-control" value="{{product.tag}}" name="tag" placeholder="Nhập tên thẻ">
         </div>
         <div class="form-group">
-            <label for="main_detail_title">Main description title</label>
-            <input type="text" class="form-control" value="{{product.detail.main_detail.title}}" name="main_detail_title" placeholder="Input here... ">
+            <label for="main_detail_title">Tiêu đề chính</label>
+            <input type="text" class="form-control" value="{{product.detail.main_detail.title}}" name="main_detail_title" placeholder="Nhập tiêu đề  ">
         </div>
         <div class="form-group">
-    <label for="main_detail_description">Main description</label>
+    <label for="main_detail_description">Mô tả chính</label>
     <textarea class="form-control" rows="3" name="main_detail_description">{{product.detail.main_detail.description}}</textarea>
   </div>
         <div class="form-group">
-            <label for="main_detail_feature">Feature</label>
+            <label for="main_detail_feature">Chức năng</label>
             {{#each feature}}
             <input class="form-control" value="{{this}}" rows="3" name="main_detail_feature">
             {{/each}}
         </div>
         <div class="form-group">
-            <label for="sub_detail_title">Sub description title </label>
-            <input type="text" class="form-control" value="{{product.detail.sub_detail.title}}" name="sub_detail_title"placeholder="Input here... ">
+            <label for="sub_detail_title"> Tiêu đề phụ </label>
+            <input type="text" class="form-control" value="{{product.detail.sub_detail.title}}" name="sub_detail_title"placeholder="Nhập tiêu đề... ">
         </div>
         <div class="form-group">
-            <label for="sub_detail_2">More detail information</label>
+            <label for="sub_detail_2">Thêm thông tin chi tiết</label>
             <textarea class="form-control" rows="3" name="sub_detail_2">{{product.detail.sub_detail_2}}</textarea>
         </div>
-        <button type="submit" class="btn btn-dark">Update</button>
+        <button type="submit" class="btn btn-dark">Lưu thay đổi</button>
     </form>
 
 </div>
