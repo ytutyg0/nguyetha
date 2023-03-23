@@ -1,0 +1,177 @@
+
+@import 'productCards.scss';
+@import 'products.scss';
+@import 'login.scss';
+@import 'signup.scss';
+
+body{
+    overflow-x: hidden;
+    // font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#BrandName{
+    margin-left: 10%;
+    font-weight: 900;
+    font-family: 'Pacifico', cursive;
+}
+#role{
+    color: brown;
+    font-size: 600;
+}
+a{
+    text-decoration: none;
+}
+.banner-area{
+    width: 100%;
+}
+.navbar{
+    font-weight: 600;
+}
+.nav-item{
+    padding: .5rem;
+}
+
+.menu-area{
+    position: static;
+}
+.menu-area.dropdown-menu{
+    width: 100%;
+            .dropdown-item{
+                text-align: center;
+            }
+            h5{
+                text-align: center;
+            }
+}
+.dropdown:hover{
+    .dropdown-menu{
+        display: block;
+    }
+
+}
+
+.carousel-item{
+    min-height: 300px;
+}
+.carousel-caption{
+    background-color: rgba(255, 255, 255, 0.4);
+    bottom: 150px;
+    color: black;
+    // background-color: black ;
+    h5{
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 25px;
+        font-weight: 600;
+        text-shadow: 0.1rem 0.1rem 0.3rem rgba(107, 12, 12, 0.5);
+    }
+    button{
+        text-transform: uppercase;
+        // color: black;
+        padding: 10px 30px;
+        border-radius: 50px;
+    }
+}
+footer{
+    border-top: 1px solid  rgba(0,0,0,0.2);
+    p{
+        color: #999;
+    }
+    h2{
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .footer-top{
+        padding: 80px 0;
+    }
+    .segment-one{
+        padding-top: 20px;
+    }
+    .segment-two{
+        font-family: 'Poppins', sans-serif;
+        padding-top: 20px;
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li{
+                border-bottom: 1px solid rgba(0,0,0,0.3);
+                line-height: 40px;
+                a{
+                    color: #999;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .segment-three{
+        padding-top: 20px;
+        a{
+            border : 1px solid black;
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            border-radius: 50%;
+            margin-right: 10px;
+
+            i{
+                font-size: 20px;
+                color: black;
+                padding: 10px;
+            }
+        }
+        a:hover{
+            border-color: #999;
+        }
+        p{
+            border-bottom: 1px solid rgba(0,0,0,0.3);
+            padding-bottom: 20px;
+        }
+    }
+    .segment-four{
+        padding-top: 20px;
+        .submitEmail{
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 3px 15px;
+            margin-left: -5px;
+
+        }
+        .submitEmail:hover{
+            background-color:white;
+            color: #000;
+            border: 1px solid;
+            border-color: #999;
+        }
+    }
+}
+.parallex{
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(/img/The-Skin-Care-Company-Grey-and-White-Background-1-1.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    text-align: center;
+    h1{
+        font-size: 55px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+
+.create-form{
+    margin: 50px auto;
+    letter-spacing: 0.1rem;
+    h3{
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+}
+.user{
+    margin-right: 8%;
+}

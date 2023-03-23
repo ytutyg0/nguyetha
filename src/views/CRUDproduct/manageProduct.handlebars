@@ -1,0 +1,86 @@
+{{> header}}
+<div class="container All-products">
+    <div class="mt-4">
+        <h3 class="text-center">Product Management</h3>
+        <table class="table mt-4">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Brand</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Sale</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each products}}
+                <tr>
+                    <th scope="row">{{sum @index 1}}</th>
+                    <td>{{this.title}}</td>
+                    <td>{{this.brand}}</td>
+                    <td>{{this.type}}</td>
+                    <td>${{this.price}}</td>
+                    <td>${{this.salePrice}}</td>
+                    <td>
+                        <a href="/admin/update/{{this._id}}" role="button">Update</a>
+                    </td>
+                    <td>
+                        <a href="/admin/manage" role="button" data-toggle="modal" data-target="#exampleModal"
+                            data-id="{{this._id}}">Delete</a>
+                    </td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+
+
+    </div>
+
+</div>
+
+
+{{!-- comfirm delete product --}}
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">CONFIRM DELETE</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Are you sure to delete this product?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger">DELETE</button>
+            </div>
+        </div>
+    </div>
+</div>
+ <form id="delete-form"method="POST">
+ </form>
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        let id;
+        let deleteFrom = document.forms['delete-form'];
+        $('#exampleModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget)
+        id = button.data('id');
+    })
+        const btn = document.querySelector('.btn-danger');
+        btn.addEventListener('click', ()=>{
+            deleteFrom.action = '/admin/'+ id +'?_method=DELETE';
+            deleteFrom.submit();
+        })
+
+    })
+</script>
+{{> footer}}

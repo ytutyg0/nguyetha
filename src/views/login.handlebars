@@ -1,0 +1,52 @@
+<nav class="navbar navbar-expand-lg  navbar-light">
+    <a class="navbar-brand" id="BrandName" href="/">&larr;</a>
+</nav>
+<div class="container">
+    <div class="containerLogin">
+        <div class="img">
+            <img src="/img/undraw_shopping_app_flsj.svg">
+        </div>
+        <div class="login-container">
+            <form class="Login-form" action="/login" method="POST">
+                <img class="avatar" src="/img/undraw_male_avatar_323b.svg">
+                <h2>Wellcome</h2>
+                <div class="signup">
+                    <a href="/signup">Sign up?</a>
+                </div>
+                {{#if hasErrors}}
+                <div class="messages">
+                    {{#each messages}}
+                    <p>{{this}} !!</p>
+                    {{/each}}
+                </div>
+                {{/if}}
+                <div class="input-div username">
+                    <div class="i">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <input class="input" type="text" placeholder="Email" name="email">
+                    </div>
+                </div>
+                <div class="input-div password">
+                    <div class="i">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <input class="input" type="password" placeholder="Password" name="password">
+                    </div>
+                </div>
+                <div class="forgotpwd">
+                    <a href="/resetpassword">Forgot password?</a>
+                </div>
+                <input type="hidden" name="_csrf" value="{{csrfToken}}">
+                <input type="submit" class="btn" value="Login">
+                <p class="social-text">Or Sign up with social platforms</p>
+                <div class="social-media">
+                    <a href="/auth/fb">
+                        Continue with Facebook
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>

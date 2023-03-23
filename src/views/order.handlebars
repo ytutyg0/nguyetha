@@ -1,0 +1,109 @@
+{{> header}}
+<div class="container">
+    <div style="margin: 40px auto; text-align: center;">
+        <h1>MY ORDER</h1>
+    </div>
+    {{#each orders}}
+    <div class="row mb-4" style="border-bottom: 1px solid grey;">
+        {{#each this.item}}
+        <div class="row mb-4 d-flex jjustify-content-start">
+            <div class="col-md-5 col-lg-3 col-xl-3">
+                <div class="view zoom overlay z-depth-1 rounded mb-3 mb-md-0">
+                    <img class="img-fluid w-100" src="/img/{{this.item.img}}" alt="Sample">
+                </div>
+            </div>
+            <div class="col-md-7 col-lg-9 col-xl-9">
+                <div>
+                    <div class="d-flex justify-content-between">
+                        <div class="align-self-center">
+                            <h5>{{this.item.title}}</h5>
+                            <p class="mb-3 text-muted text-uppercase small">Price:
+                                {{#if this.item.salePrice}}
+                                <small><del>${{this.item.price}}</del></small>
+                                <span class="sale-price">${{this.item.salePrice}}</span>
+                            </p>
+                            {{else}}
+                            ${{this.item.price}}
+                            {{/if}}
+                            <p class="mb-2 text-muted text-uppercase small">Type: {{this.item.type}}</p>
+                            <p class="mb-3 text-muted text-uppercase small">Brand: {{this.item.brand}}</p>
+                        </div>
+                        <div style="margin-right: 220px;">
+                            <h5>Quantity</h5>
+                            <p class="mb-3 text-uppercase " style="text-align: center; font-weight: bold;">{{this.qty}}
+                            </p>
+                            <small id="passwordHelpBlock" class="form-text text-muted text-center">
+                                (Note, {{this.qty}} piece)
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{/each}}
+        <hr>
+        <div class="container d-flex justify-content-end">
+
+                    <div class="d-flex justify-content-end flex-row-reverse" >
+                        <div class="p-2">
+                            <a href="/user/cancelOrder/{{this._id}}?_method=PUT" role="button" data-toggle="modal" data-target="#exampleModal"
+                            data-id="{{this._id}}" >{{#ifEquals this.status "Waiting for confirm"}}
+                            <p style=" margin-left: 20px; color: brown; font-weight: bold;">Cancel order</p>{{/ifEquals}}</a>
+                        </div>
+                        <div style="text-align: center; border-top: 1 solid grey;" class="p-2">
+                            <h5>Total Price</h5>
+                            <p style="color: brown;"><strong>${{this.cart.totalPrice}}</strong></p>
+                        </div>
+                        <div style="margin-left: 60px; text-align: center;"class="p-2" >
+                            <h5>Ordered at </h5>
+                            <p style="color: brown;"><strong>{{this.dateOrder}}</strong></p>
+                    </div>
+                    <div style="text-align: center; border-top: 1 solid grey;" class="p-2">
+                            <h5>Status</h5>
+                            <p style="color: brown;"><strong>{{this.status}}</strong></p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">CONFIRM DELETE</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Are you sure to cancel this order?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+ <form id="delete-form"method="POST">
+ </form>
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        let id;
+        let deleteFrom = document.forms['delete-form'];
+        $('#exampleModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget)
+        id = button.data('id');
+    })
+        const btn = document.querySelector('.btn-danger');
+        btn.addEventListener('click', ()=>{
+            deleteFrom.action = '/user/cancelOrder/'+ id +'?_method=PUT';
+            deleteFrom.submit();
+        })
+
+    })
+</script>
+{{> footer}}

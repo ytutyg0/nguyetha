@@ -1,0 +1,591 @@
+[{
+  "_id": {
+    "$oid": "5fbf74c93d8599213f1d3084"
+  },
+  "title": "Vitamin Booster Vital A Elixirx",
+  "img": "fullsizeoutput_68f_1000x.jpg",
+  "brand": "mukti",
+  "price": 110.05,
+  "salePrice": 82.35,
+  "qty": 20,
+  "detail": {
+    "main_detail": {
+      "title": "Ingredient Highlights",
+      "description": "Features two forms of Hyaluronic Acid plus a blend of powerful natural fruit extracts, antioxidants and a peptide leaving skin with a smooth, refreshed appearance.                 The ultra-light texture absorbs instantly without leaving skin feeling greasy.",
+      "feature": [
+        "farm-made Calendula extract + Organic Sunflower Seed Oil, Camellia Oleifera (Camellia Seed) Oil, Raspberry (Rubus idaeus) Oil",
+        "Borage Flower, Rosemary Leaf, Calendula Flower, Dandelion Leaf,",
+        "Farm-Grown Beauty Blend - a sunflower seed oil-based maceration of Lavender Flower",
+        "Nettle Leaf, and Artemisia Flower ",
+        "Gomphrena globosa Flower, Moringa Flower, German Chamomile Flower"
+      ]
+    },
+    "sub_detail": {
+      "title": "Ingredient Highlights",
+      "feature": "Borage Flower, Rosemary Leaf, Calendula Flower, Dandelion Leaf,,Farm-Grown Beauty Blend - a sunflower seed oil-based maceration of Lavender Flower,Nettle Leaf, and Artemisia Flower ,Gomphrena globosa Flower, Moringa Flower, German Chamomile Flower,Vitis Vinifera (Grape) Seed Oil"
+    },
+    "sub_detail_2": "Luna is personal to me - it was my first plant oil creation. Luna is deeply intoxicating with the additional blend of the sweet, floral aroma of Clary Sage + the rich, earthy and woody aroma of Sandalwood. This new blend is similar to the experience you have when you walk through my gardens at our farm. If you’ve never tried a cleansing oil, I know you and your skin will love Luna and your experience will be one you come back to – every day. "
+  },
+  "tag": [
+    "NewArrivals"
+  ],
+  "type": "serum"
+},{
+  "_id": {
+    "$oid": "5fbf7c933d8599213f1d3086"
+  },
+  "title": "Rose Blossom Hydrating Mist",
+  "img": "product-large-image-7944eb7a637dad8aa51a5a6131de7c46.JPG",
+  "brand": "mukti",
+  "price": 54.95,
+  "salePrice": 40.05,
+  "qty": 7,
+  "detail": {
+    "main_detail": {
+      "title": "Ingredient Highlights",
+      "description": "Hand picked Bulgarian rose petals are combined with native Australian extracts of Kakadu Plum.",
+      "feature": [
+        "Provides short- and long-term moisturization",
+        "Reduces the appearance of fine lines and wrinkles",
+        "Keeps skin uniformly hydrated.",
+        "Alleviates tightness and moisturizes without leaving skin feeling sticky",
+        "Can be used under moisturizer for added hydration"
+      ]
+    },
+    "sub_detail": {
+      "title": "Assists with product penetration",
+      "feature": "Aloe barbadensis (Aloe Vera) leaf juice*,Rosa centifolia (Rose) hydrosol*,,Terminalia ferndinandiana (Kakadu Plum) extract,Melaleuca alternifolia (Snowflower) extract,Anigozanthos flavidus"
+    },
+    "sub_detail_2": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident."
+  },
+  "tag": [
+    "NewArrivals",
+    "BestSellers"
+  ],
+  "type": "moisturiser"
+},{
+  "_id": {
+    "$oid": "5fbf80a18f23c615e0e37417"
+  },
+  "title": "PLANT CLEANSING OIL",
+  "img": "exaggerated-scale_0020s_0000_HS-pump-front_2000x.jpg",
+  "brand": "luna",
+  "price": 70.05,
+  "salePrice": 51.15,
+  "qty": 8,
+  "detail": {
+    "main_detail": {
+      "title": "Ingredient Highlights",
+      "description": "Features two forms of Hyaluronic Acid plus a blend of powerful natural fruit extracts, antioxidants and a                peptide leaving skin with a smooth, refreshed appearance.                 The ultra-light texture absorbs instantly without leaving skin feeling greasy.",
+      "feature": [
+        "Borage Flower, Rosemary Leaf, Calendula Flower, Dandelion Leaf,",
+        "Nettle Leaf, and Artemisia Flower ",
+        "Gomphrena globosa Flower, Moringa Flower, German Chamomile Flower",
+        "farm-made Calendula extract + Organic Sunflower Seed Oil, Camellia Oleifera (Camellia Seed) Oil, Raspberry (Rubus idaeus) Oil"
+      ]
+    },
+    "sub_detail": {
+      "title": "Assists with product penetration",
+      "feature": "Sodium Hyaluronate (Hyaluronic Acid). Binds water to the skin and                     provides short- and long-term moisturization.,Watermelon, Apple & Lentil Fruit Extracts. Blend of natural fruit                     extracts keeps skin uniformly hydrated.,Palmitoyl Tripeptide-5. Reduces the appearance of fine lines and wrinkles.,Vitamin E & Pomegranate Extract. Provide strong antioxidant benefits.,Honey and Sea Kelp Extract. Hydrate and condition the skin."
+    },
+    "sub_detail_2": "Anim pariatur cliche reprehenderit. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident."
+  },
+  "tag": [
+    "BestSellers"
+  ],
+  "type": "cleansing"
+},{
+  "_id": {
+    "$oid": "5fbf81d08f23c615e0e37418"
+  },
+  "title": "Vitamin Booster ",
+  "img": "product-large-image-2dd5a30ae5925ce8f6adc3eb0119511e.JPG",
+  "brand": "luna",
+  "price": 80.05,
+  "salePrice": 68.05,
+  "qty": 8,
+  "detail": {
+    "main_detail": {
+      "title": "Ingredient Highlights",
+      "description": "Features two forms of Hyaluronic Acid plus a blend of powerful natural fruit extracts, antioxidants and a                 peptide leaving skin with a smooth, refreshed appearance.                 The ultra-light texture absorbs instantly without leaving skin feeling greasy.",
+      "feature": [
+        "amanu (Calophyllum inophyllum), Sea Buckthorn (Hippophae rhamnoides)",
+        "Camellia Seed (Camellia oleifera), Sunflower Seed Oil + Calendula Flower (Calendula officinalis) infusion, Rosehip Seed Oil (Rosa canina) Avocado Seed (Persea gratissima)",
+        "Meadowfoam Oil (Limnanthes alba), Grapeseed Oil (Vitis vinifera), Sweet Orange EO (Citrus sinensis)",
+        "Ylang Ylang (Cananga Odorata), Bergamont (Citrus bergamia), Lavender (Lavandula angustifolia)",
+        "Frankincense (Boswellia carterii), Jasmine (Jasminum grandiflorum), Clary Sage (Salvia sclarea L.), Sandalwood (Santalum Spicatum) Lemon (Citrus limon (L.) Burm.F."
+      ]
+    },
+    "sub_detail": {
+      "title": "Hydrating Serum",
+      "feature": "Sodium Hyaluronate (Hyaluronic Acid). Binds water to the skin and                     provides short- and long-term moisturization.,Watermelon, Apple & Lentil Fruit Extracts. Blend of natural fruit                     extracts keeps skin uniformly hydrated.,Palmitoyl Tripeptide-5. Reduces the appearance of fine lines and wrinkles.,Vitamin E & Pomegranate Extract. Provide strong antioxidant benefits.,Honey and Sea Kelp Extract. Hydrate and condition the skin."
+    },
+    "sub_detail_2": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident."
+  },
+  "tag": [
+    "NewArrivals"
+  ],
+  "type": "serum"
+},{
+  "_id": {
+    "$oid": "5fc01fab2003f72d989342ac"
+  },
+  "tag": [
+    "BestSellers"
+  ],
+  "title": "Hydrating Cleansing Lotion",
+  "img": "product-large-image-5a82f1d91fd2915340ec7c231859b4e0.JPG",
+  "brand": "mukti",
+  "price": 80.05,
+  "salePrice": 62.05,
+  "qty": 10,
+  "detail": {
+    "main_detail": {
+      "title": "INGREDIENTS",
+      "description": "Aloe barbadensis (Aloe Vera) leaf juice*, Macadamia ternifolia (Macadamia) nut oil*, Cetearyl glucoside (Vegetarian), Cocos nucifera (Coconut) oil*, Butyrospermum parkii (Shea) nut butter*",
+      "feature": [
+        "Aloe barbadensis (Aloe Vera) leaf juice*",
+        " Macadamia ternifolia (Macadamia) nut oil*",
+        " Cetearyl glucoside (Vegetarian)",
+        " Cocos nucifera (Coconut) oil*",
+        " Butyrospermum parkii (Shea) nut butter*"
+      ]
+    },
+    "sub_detail": {
+      "title": "Ideal for normal and dry skin. Use morning and evening.",
+      "description": "Aloe barbadensis (Aloe Vera) leaf juice*, Macadamia ternifolia (Macadamia) nut oil*, Cetearyl glucoside (Vegetarian), Cocos nucifera (Coconut) oil*, Butyrospermum parkii (Shea) nut butter*"
+    },
+    "sub_detail_2": "Aloe barbadensis (Aloe Vera) leaf juice*, Macadamia ternifolia (Macadamia) nut oil*, Cetearyl glucoside (Vegetarian), Cocos nucifera (Coconut) oil*, Butyrospermum parkii (Shea) nut butter*"
+  },
+  "type": "lotion",
+  "createdAt": {
+    "$date": "2020-11-26T21:35:39.579Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe4909830d2fe3b5cf4e0a1"
+  },
+  "tag": [
+    "NewArrivals"
+  ],
+  "title": "EXTRA REPAIR LOTION CREAM",
+  "img": "bb_sku_E9TF01_1080x1080_0.jpg",
+  "brand": "bobbi brown",
+  "price": 104.04,
+  "salePrice": null,
+  "qty": 5,
+  "detail": {
+    "main_detail": {
+      "title": "WHAT IT IS",
+      "description": "All the benefits of our cult-favorite Extra Repair Moisturizing Balm—now in a lightweight yet luxurious cream ",
+      "feature": [
+        "Ingredients: Water\\Aqua\\Eau",
+        "Butyrospermum Parkii (Shea Butter) ",
+        "Caprylic/Capric/Myristic/Stearic Triglyceride "
+      ]
+    },
+    "sub_detail": {
+      "title": "WHY IT'S DIFFERENT",
+      "description": "This skin-nourishing formula utilizes a unique Triple Emulsion Technology to give the cream its lightweight texture while still allowing it to be incredibly moisturizing",
+      "feature": ""
+    },
+    "sub_detail_2": "Normal to Extra Dry skin types and perfect for those in humid climates (or anyone who prefers a lighter feel)."
+  },
+  "type": "lotion",
+  "createdAt": {
+    "$date": "2020-12-24T12:59:04.695Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe4979aeea5c434e0625878"
+  },
+  "tag": [
+    ""
+  ],
+  "title": "Crushed Oil-Infuses Gloss Mini Trio",
+  "img": "bb_sku_ENJ501_1080x1080_0.jpg",
+  "brand": "bobbi brown",
+  "price": 20.05,
+  "salePrice": null,
+  "qty": 7,
+  "detail": {
+    "main_detail": {
+      "title": "WHAT IT IS",
+      "description": "A go-anywhere set of our NEW super-smooth, ultra-hydrating, non-sticky lip gloss in three ultra-flattering shades. ",
+      "feature": [
+        "Hydrogenated Polyisobutene",
+        " Polybutene",
+        " Pentaerythrityl Tetraisostearate",
+        " Ethylene/Propylene/Styrene Copolymer",
+        " C12-15 Alkyl Benzoate",
+        " Olea Europaea (Olive) Fruit Oil",
+        " Prunus Armeniaca (Apricot) Kernel Oil",
+        " Tocopheryl Acetate",
+        " Aleurites Moluccana (Kukui) Seed Oil"
+      ]
+    },
+    "sub_detail": {
+      "title": "How to use",
+      "description": "Swipe across lips and go or layer over Crushed Lip Color for a bolder look.",
+      "feature": "Swipe across lips and go or layer over Crushed Lip Color for a bolder look."
+    },
+    "sub_detail_2": "Swipe across lips and go or layer over Crushed Lip Color for a bolder look."
+  },
+  "type": "lip",
+  "createdAt": {
+    "$date": "2020-12-24T13:28:58.048Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5beeb71cf9b1fccbcd040"
+  },
+  "tag": [
+    "NewArrivals"
+  ],
+  "title": "Vitamin Enriched Face Base",
+  "img": "bb_sku_E1LM01_1080x1080_0.jpg",
+  "brand": "bobbi brown",
+  "price": 62.05,
+  "salePrice": 60.05,
+  "qty": 5,
+  "detail": {
+    "main_detail": {
+      "title": "INGREDIENTS",
+      "description": "This formula combines the moisturizing power of Shea Butter with Vitamins B, C and E. Grapefruit and Geranium fragrances leave a light, uplifting scent on skin. With daily use, skin looks and feels its best.",
+      "feature": [
+        "Ingredients: Water\\Aqua\\Eau ",
+        " Cyclopentasiloxane ",
+        " Bis-Diglyceryl Polyacyladipate-2 ",
+        " Butylene Glycol ",
+        " Ppg-2 Myristyl Ether Propionate ",
+        " Cetyl Alcohol ",
+        " Peg-40 Stearate ",
+        " Butyrospermum Parkii (Shea Butter) ",
+        " Squalane ",
+        " Glyceryl Stearate "
+      ]
+    },
+    "sub_detail": {
+      "title": "How to use",
+      "description": "Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients.",
+      "feature": "Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients."
+    },
+    "sub_detail_2": "Please be aware that ingredient lists may change or vary from time to time. Please refer to the ingredient list on the product package you receive for the most up to date list of ingredients."
+  },
+  "type": "face",
+  "createdAt": {
+    "$date": "2020-12-25T10:28:59.262Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5bfa671cf9b1fccbcd041"
+  },
+  "tag": [
+    ""
+  ],
+  "title": "Corrector",
+  "img": "bb_sku_E6XW05_1080x1080_0.jpg",
+  "brand": "bobbi brown",
+  "price": 29.83,
+  "salePrice": null,
+  "qty": 5,
+  "detail": {
+    "main_detail": {
+      "title": "INGREDIENTS",
+      "description": "Designed to brighten undereyes and cover even the most stubborn dark circles, this creamy, blendable formula instantly neutralizes discoloration and layers perfectly under concealer. Available in 16 color-correcting pink- and peach-based shades formulated for all types of undereye discoloration. ",
+      "feature": [
+        "Petrolatum ",
+        " Octyldodecyl Stearoyl Stearate ",
+        " Bis-Diglyceryl Polyacyladipate-2 ",
+        " Methyl Methacrylate Crosspolymer ",
+        " Tribehenin ",
+        " Kaolin ",
+        " Silica ",
+        " Polyethylene ",
+        " Tocopheryl Acetate ",
+        " Lecithin ",
+        " Polysorbate 20 ",
+        " Tocopherol ",
+        " Propylene Glycol Stearate ",
+        " Tetrahexyldecyl Ascorbate "
+      ]
+    },
+    "sub_detail": {
+      "title": "How to use",
+      "description": "To find your shade, take a look at the discoloration under the eye. If it’s bluish-purple, choose a bisque shade. If it’s greenish-brown, choose a peach shade. If it’s a mix of both, choose a peach bisque shade.",
+      "feature": "Using the Concealer Brush (sold separately), apply Corrector to areas of discoloration, getting as close to the lashline and innermost corner as possible. Gently blend with your finger."
+    },
+    "sub_detail_2": "Using the Concealer Brush (sold separately), apply Corrector to areas of discoloration, getting as close to the lashline and innermost corner as possible. Gently blend with your finger."
+  },
+  "type": "face",
+  "createdAt": {
+    "$date": "2020-12-25T10:32:06.368Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5c0a571cf9b1fccbcd042"
+  },
+  "tag": [
+    "NewArrivals"
+  ],
+  "title": "Somkey Eye Mascara ",
+  "img": "bb_sku_E9TN01_1080x1080_0.jpg",
+  "brand": "bobbi brown",
+  "price": 32.08,
+  "salePrice": 29.05,
+  "qty": 5,
+  "detail": {
+    "main_detail": {
+      "title": "INGREDIENTS",
+      "description": "The perfect complement to a smokey eye look, this kohl-pigmented mascara delivers high drama by creating extremely black, stretched-out lashes in an instant. Plus, the long-wearing formula holds its own against flaking, smudging, sweat and humidity.",
+      "feature": [
+        "Water\\Aqua\\Eau ",
+        " Beeswax\\Cera Alba\\Cire D'Abeille ",
+        " Copernicia Cerifera (Carnauba) Wax\\Cera Carnauba\\Cire De Carnauba ",
+        " Cichorium Intybus (Chicory) Root Extract ",
+        " Helianthus Annuus (Sunflower) Seed Wax ",
+        " Stearic Acid ",
+        " Palmitic Acid ",
+        " Propanediol ",
+        " Triethanolamine ",
+        " Nylon 6/12 ",
+        " Galactoarabinan ",
+        " Caprylyl Glycol ",
+        " Aminomethyl Propanediol ",
+        " Caesalpinia Spinosa Gum"
+      ]
+    },
+    "sub_detail": {
+      "title": "WHY IT'S DIFFERENT",
+      "description": "Builds volume lash by lash as opposed to traditional volumizing formulas that create the appearance of volume by clumping lashes together. Plus, a thicker brush base evenly combs through eyelashes from roots to ends, while a tapered tip grabs those small, hard-to-reach lashes.",
+      "feature": "Brush from base to tips of lashes and let dry."
+    },
+    "sub_detail_2": "Brush from base to tips of lashes and let dry."
+  },
+  "type": "eyes",
+  "createdAt": {
+    "$date": "2020-12-25T10:36:21.824Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5c1ef71cf9b1fccbcd045"
+  },
+  "tag": [
+    ""
+  ],
+  "title": "Perfectly Defined Brown Pencil",
+  "img": "bb_sku_ECNF01_1080x1080_0.jpg",
+  "brand": "bobbi brown",
+  "price": 20.05,
+  "salePrice": null,
+  "qty": 5,
+  "detail": {
+    "main_detail": {
+      "title": "INGREDIENTS",
+      "description": "A long-wearing brow pencil with a slanted, chiseled tip that lets you softly fill in brows with the flat edge or boldly define them with the pointed tip. Plus, the attached spoolie diffuses color and combs hairs into place for a naturally polished look. Waterproof and sweat resistant.",
+      "feature": [
+        "Behenic Acid ",
+        " Rhus Succedanea (Japan) Fruit Wax ",
+        " Triethylhexanoin ",
+        " Sucrose Tetrastearate Triacetate ",
+        " Dipentaerythrity"
+      ]
+    },
+    "sub_detail": {
+      "title": "How to use",
+      "description": "Use the flat side of the pencil to fill in the head of the brow, and then with the pointed tip use short strokes to define the arch and tail. For a bolder look, use the pointed tip to define the length of the brow, and then go over the edges for added definition. Comb hairs into place using the attached spoolie.",
+      "feature": "Use the flat side of the pencil to fill in the head of the brow, and then with the pointed tip use short strokes to define the arch and tail. For a bolder look, use the pointed tip to define the length of the brow, and then go over the edges for added definition. Comb hairs into place using the attached spoolie."
+    },
+    "sub_detail_2": "Parabens, Phthalates, Sulfates, Animal Derived Ingredients, Gluten, Sulfites, Mineral Oil, Tricolsan, Formaldehyde"
+  },
+  "type": "eyebrows",
+  "createdAt": {
+    "$date": "2020-12-25T10:41:51.590Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5ce4dcaf71f17a41c1f4d"
+  },
+  "tag": [
+    ""
+  ],
+  "title": "Perfumed Body Spritz",
+  "img": "00580258_pure_grace_re_a1-1.jpg",
+  "brand": "philosophy",
+  "price": 35.08,
+  "salePrice": null,
+  "qty": 7,
+  "detail": {
+    "main_detail": {
+      "title": "INGREDIENTS",
+      "description": "a perfect fragrance base to make you feel infinitely clean. a pure scent of a veil of water lily with a subtle freshness, the simple, modern tones of leafy greens and frosted musk brings a refreshing finish.",
+      "feature": [
+        "sd alcohol 40b (alcohol denat.)",
+        " water (aqua)",
+        " fragrance (parfum)",
+        " glycerin",
+        " panthenol",
+        " camellia sinensis leaf extract",
+        " chrysanthemum parthenium (feverfew) extract",
+        " tris (tetramethylhydroxypiperidinol) citrate",
+        " sodium benzotriazolyl butylphenol sulfonate"
+      ]
+    },
+    "sub_detail": {
+      "title": "How to use",
+      "description": "spray mist from any angle over entire body after shower or bath or anytime you want to feel surrounded by love and happiness. can be used alone or underneath any of our fragrances.",
+      "feature": "smell soap and water clean with the light scent of our pure grace body spritz."
+    },
+    "sub_detail_2": "smell soap and water clean with the light scent of our pure grace body spritz."
+  },
+  "type": "spritz",
+  "createdAt": {
+    "$date": "2020-12-25T11:34:37.018Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5cf41caf71f17a41c1f4e"
+  },
+  "tag": [
+    "BestSellers"
+  ],
+  "title": "Firming Body Emulsion",
+  "img": "PHL_FRG_AG_EML480ml_S7.jpg",
+  "brand": "philosophy",
+  "price": 42,
+  "salePrice": null,
+  "qty": 5,
+  "detail": {
+    "main_detail": {
+      "title": "INGREDIENTS",
+      "description": "this firming body emulsion is an award-winning body moisturizer for dry, aged or wrinkled skin.",
+      "feature": [
+        "water (aqua)",
+        " fragrance (parfum)",
+        " macadamia ternifolia seed oil",
+        " isocetyl stearoyl stearate",
+        " glycerin",
+        " olea europaea (olive) fruit oil",
+        " dimethicone",
+        " glyceryl stearate",
+        " butyrospermum parkii (shea butter)",
+        " cetearyl alcohol",
+        " cetyl alcohol",
+        " polysorbate 60",
+        " peg-100 stearate",
+        " stearic acid",
+        " phytosterol/octyldodecyl lauroyl glutamate",
+        " tocopheryl acetate",
+        " potassium ascorbyl tocopheryl phosphate",
+        " xanthan gum",
+        " carbomer"
+      ]
+    },
+    "sub_detail": {
+      "title": "How to use",
+      "description": "apply a generous amount to skin with fingertips, and massage in gently with a soothing, circular motion.",
+      "feature": "infused with the amazingly clean, beautifully feminine scent of philosophy's bestselling amazing grace fragrance, this firming body emulsion is an award-winning moisturizer for dry skin. includes an antioxidant and firming ingredient to help skin feel more toned."
+    },
+    "sub_detail_2": "infused with the amazingly clean, beautifully feminine scent of philosophy's bestselling amazing grace fragrance, this firming body emulsion is an award-winning moisturizer for dry skin. includes an antioxidant and firming ingredient to help skin feel more toned."
+  },
+  "type": "lotion",
+  "createdAt": {
+    "$date": "2020-12-25T11:38:41.978Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5d06ecaf71f17a41c1f4f"
+  },
+  "tag": [
+    ""
+  ],
+  "title": "Shampoo, Bath & Shower gel",
+  "img": "REGULARliving_grace_shower_gel_re_a1.jpg",
+  "brand": "philosophy",
+  "price": 62.05,
+  "salePrice": null,
+  "qty": 7,
+  "detail": {
+    "main_detail": {
+      "title": "INGREDIENTS",
+      "description": "introducing pure grace nude rose, an airy rose scent inspired by the bare color of nude rose petals and the clean, fresh feel of our beloved pure grace.",
+      "feature": [
+        "aqua/water/eau",
+        " sodium laureth sulfate",
+        " lauryl betaine",
+        " parfum/fragrance",
+        " ppg-2 hydroxyethyl cocamide",
+        " disodium laureth sulfosuccinate",
+        " phenoxyethanol",
+        " peg-7 glyceryl cocoate",
+        " peg-150 pentaerythrityl tetrastearate",
+        " sodium benzoate",
+        " buteth-3",
+        " peg-6 caprylic/capric glycerides",
+        " benzyl salicylate",
+        " citric acid",
+        " sodium benzotriazolyl butylphenol sulfonate",
+        " cocamidopropyl pg-dimonium chloride phosphate"
+      ]
+    },
+    "sub_detail": {
+      "title": "How to use",
+      "description": "apply to wet body or scalp. lather, rinse, repeat. if using as a bubble bath, drizzle a generous amount under running water and enjoy.",
+      "feature": "apply to wet body or scalp. lather, rinse, repeat. if using as a bubble bath, drizzle a generous amount under running water and enjoy."
+    },
+    "sub_detail_2": "our multi-tasking formula cleanses and conditions with a rich, foaming lather, leaving skin and hair feeling silky soft and lightly scented."
+  },
+  "type": "shampoo",
+  "createdAt": {
+    "$date": "2020-12-25T11:43:42.777Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5d1c224680b3ba4c5d39a"
+  },
+  "tag": [
+    "BestSellers"
+  ],
+  "title": "Eau De Toilette",
+  "img": "PHL_FRG_PG_EDT_60ml_S7.jpg",
+  "brand": "philosophy",
+  "price": 70.05,
+  "salePrice": 62.05,
+  "qty": 5,
+  "detail": {
+    "main_detail": {
+      "title": "INGREDIENTS",
+      "description": "feel cleaner and more graceful than ever with our pure grace spray fragrance.",
+      "feature": [
+        "sd alcohol 40b",
+        " fragrance (parfum)",
+        " water (aqua)",
+        " sodium benzotriazolyl",
+        " butylphenol sulfonate",
+        " buteth-3",
+        " tributyl citrate"
+      ]
+    },
+    "sub_detail": {
+      "title": "How to use",
+      "description": "spray onto a clean, dry body. avoid direct eye contact.",
+      "feature": "pure grace eau de toilette is our infinitely clean fragrance in a concentrated form. clean and universally appealing, this soap and water scent is the perfect fragrance for anyone who wants to feel as though they just stepped out of the shower."
+    },
+    "sub_detail_2": "pure grace eau de toilette is our infinitely clean fragrance in a concentrated form. clean and universally appealing, this soap and water scent is the perfect fragrance for anyone who wants to feel as though they just stepped out of the shower."
+  },
+  "type": "pure grace",
+  "createdAt": {
+    "$date": "2020-12-25T11:49:22.614Z"
+  },
+  "__v": 0
+}]

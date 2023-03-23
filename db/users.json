@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "5fe1dd2e1756874ab8d57add"
+  },
+  "email": "rzy82326@eoopy.com",
+  "password": "$2a$05$ZArnkqj1MTlPekwTndLPfeB7C4t/WtwJ5WGRucRYfek4BeY0X2QKO",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe1e12810ca3e36e014fd57"
+  },
+  "email": "kienhoang26092k@gmail.com",
+  "password": "$2a$05$YjN2rzTRXD4vCu4SUXQkEOr.rkvIRhegzjFD/5iNHC1aKbhl1OCJu",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe1e1639397291fe87ea17b"
+  },
+  "email": "test1@gmail.com",
+  "password": "$2a$05$Dx4YGwmCguoxVHbLBmNnRexnEKyxYPn6h9OEP9sKKU8XdbfZRgHle",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe1e1c41643240a5c18cc8c"
+  },
+  "email": "test2@gmail.com",
+  "password": "$2a$05$ZkF/P2tEQt9NMr5y4nsjK.Kag0E0b11xX2tjAlwPmtHn6HcQMfnf.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe1e367728bfc3b7490b53e"
+  },
+  "email": "test3@gmail.com",
+  "password": "$2a$05$paL46W980.QMAgxFlWBq7.9lMvJ7tNpEwmBkiDAc5ep5D8sQiCYDS",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe1e50cbe3f4e239003983c"
+  },
+  "email": "test4@gmail.com",
+  "password": "$2a$05$omJkNzLkHRw16PKbNYxEaOAZLi.cN9131uDn8ajeXaBf4oNiFGzvy",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe20ad798c179108897b386"
+  },
+  "email": "test5@gmail.com",
+  "password": "$2a$05$95miNATi.NbOWdM7m25UROJmFZLBZpL4QsaK1073bSGldxDC/sjpG",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe220082630b4288832216c"
+  },
+  "email": "nga12012000@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe241f5743a0932101b7f11"
+  },
+  "email": "test12@gmail.com",
+  "password": "$2a$05$uSlD5O.oxVr/sM6n4BQcFeEvHSkYvao0u35YzlPEhoqc5ZBAHtFK2",
+  "__v": 0,
+  "name": "user test 12",
+  "phone": "121212121",
+  "city": "ha noi",
+  "country": "Vietnam",
+  "address": "dai hoc ha noi"
+},{
+  "_id": {
+    "$oid": "5fe35e02513e2238c4fb8096"
+  },
+  "email": "admin@test.com",
+  "password": "$2a$05$uugFYNZUACg4NvaKR3O4U.kBQCPzZlf8Q2bIgaofMfsZQHYnwvK/6",
+  "__v": 0,
+  "role": "ADMIN"
+}]

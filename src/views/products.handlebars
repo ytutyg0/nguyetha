@@ -1,0 +1,65 @@
+{{> header}}
+<div class="main container product-id">
+    <div class="row">
+        <div class="product">
+            <div>
+                <img class="product-img" src="/img/{{product.img}}">
+            </div>
+        </div>
+        <div class="infor">
+            <div class="product-infor">
+                <span class="infor-subtitle">{{product.type}}</span>
+                <h1 class="infor-title">{{product.title}}</h1>
+                <p class="infor-description">{{product.detail.main_detail.description}}</p>
+            </div>
+            <div class="price">
+                <span class="price-title">
+                {{#if product.salePrice}}
+                <small><del>${{product.price}}</del></small>
+                <span class="sale-price" style="color: brown; font-weight: bold;">${{product.salePrice}}</span>
+                {{else}}
+                ${{product.price}}
+                {{/if}}
+                </span>
+                <a href="/products/add-to-cart/{{product._id}}" class="price-btn">ADD TO CART</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container product-detail">
+    <div class="main-detail">
+        <div class="title">
+            <h3>{{product.detail.main_detail.title}}</h3>
+            <p class="description">{{product.detail.main_detail.description}}</p>
+        </div>
+        <div class="feature">
+            <ul class="feature-group">
+                {{#each product.detail.main_detail.feature}}
+                <li class="feature-group-item">{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+        <div class="sub-detail-1">
+            <h3>{{product.detail.sub_detail.title}}</h3>
+            <ul class="feature-group">
+                <p class="description">{{product.detail.sub_detail.feature}}</p>
+            </ul>
+        </div>
+
+        <div class="sub-detail-2">
+            <h4 class="" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
+                aria-controls="collapseExample">
+                + More Information
+            </h4>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    {{product.detail.sub_detail_2}}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+{{> footer}}

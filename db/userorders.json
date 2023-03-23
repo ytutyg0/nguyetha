@@ -1,0 +1,174 @@
+[{
+  "_id": {
+    "$oid": "5fe5b34f4b71f831b8b68a52"
+  },
+  "user": {
+    "$oid": "5fe241f5743a0932101b7f11"
+  },
+  "name": "user test 12",
+  "phone": "121212121",
+  "cart": {
+    "items": {
+      "5fbf74c93d8599213f1d3084": {
+        "item": {
+          "tag": [
+            "NewArrivals"
+          ],
+          "_id": "5fbf74c93d8599213f1d3084",
+          "title": "Vitamin Booster Vital A Elixirx",
+          "img": "fullsizeoutput_68f_1000x.jpg",
+          "brand": "mukti",
+          "price": 110.05,
+          "salePrice": 82.35,
+          "qty": 20,
+          "detail": {
+            "main_detail": {
+              "title": "Ingredient Highlights",
+              "description": "Features two forms of Hyaluronic Acid plus a blend of powerful natural fruit extracts, antioxidants and a peptide leaving skin with a smooth, refreshed appearance.                 The ultra-light texture absorbs instantly without leaving skin feeling greasy.",
+              "feature": [
+                "farm-made Calendula extract + Organic Sunflower Seed Oil, Camellia Oleifera (Camellia Seed) Oil, Raspberry (Rubus idaeus) Oil",
+                "Borage Flower, Rosemary Leaf, Calendula Flower, Dandelion Leaf,",
+                "Farm-Grown Beauty Blend - a sunflower seed oil-based maceration of Lavender Flower",
+                "Nettle Leaf, and Artemisia Flower ",
+                "Gomphrena globosa Flower, Moringa Flower, German Chamomile Flower"
+              ]
+            },
+            "sub_detail": {
+              "title": "Ingredient Highlights",
+              "feature": "Borage Flower, Rosemary Leaf, Calendula Flower, Dandelion Leaf,,Farm-Grown Beauty Blend - a sunflower seed oil-based maceration of Lavender Flower,Nettle Leaf, and Artemisia Flower ,Gomphrena globosa Flower, Moringa Flower, German Chamomile Flower,Vitis Vinifera (Grape) Seed Oil"
+            },
+            "sub_detail_2": "Luna is personal to me - it was my first plant oil creation. Luna is deeply intoxicating with the additional blend of the sweet, floral aroma of Clary Sage + the rich, earthy and woody aroma of Sandalwood. This new blend is similar to the experience you have when you walk through my gardens at our farm. If you’ve never tried a cleansing oil, I know you and your skin will love Luna and your experience will be one you come back to – every day. "
+          },
+          "type": "serum",
+          "createdAt": "2020-12-25T09:38:54.395Z"
+        },
+        "qty": 2,
+        "price": 164.7
+      },
+      "5fbf7c933d8599213f1d3086": {
+        "item": {
+          "tag": [
+            "NewArrivals",
+            "BestSellers"
+          ],
+          "_id": "5fbf7c933d8599213f1d3086",
+          "title": "Rose Blossom Hydrating Mist",
+          "img": "product-large-image-7944eb7a637dad8aa51a5a6131de7c46.JPG",
+          "brand": "mukti",
+          "price": 54.95,
+          "salePrice": 40.05,
+          "qty": 7,
+          "detail": {
+            "main_detail": {
+              "title": "Ingredient Highlights",
+              "description": "Hand picked Bulgarian rose petals are combined with native Australian extracts of Kakadu Plum.",
+              "feature": [
+                "Provides short- and long-term moisturization",
+                "Reduces the appearance of fine lines and wrinkles",
+                "Keeps skin uniformly hydrated.",
+                "Alleviates tightness and moisturizes without leaving skin feeling sticky",
+                "Can be used under moisturizer for added hydration"
+              ]
+            },
+            "sub_detail": {
+              "title": "Assists with product penetration",
+              "feature": "Aloe barbadensis (Aloe Vera) leaf juice*,Rosa centifolia (Rose) hydrosol*,,Terminalia ferndinandiana (Kakadu Plum) extract,Melaleuca alternifolia (Snowflower) extract,Anigozanthos flavidus"
+            },
+            "sub_detail_2": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident."
+          },
+          "type": "moisturiser",
+          "createdAt": "2020-12-25T09:39:01.157Z"
+        },
+        "qty": 1,
+        "price": 40.05
+      }
+    },
+    "totalQty": 3,
+    "totalPrice": 204.75
+  },
+  "address": {
+    "home": "dai hoc ha noi",
+    "city": "ha noi",
+    "country": "Vietnam",
+    "zip": "1000"
+  },
+  "payment": {
+    "ccname": "User Test 12",
+    "ccnumber": "233232121",
+    "ccexpiration": "121212",
+    "cccvv": "121212"
+  },
+  "dateOrder": "Fri Dec 25 2020 16:39:27",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fe5b37a4b71f831b8b68a53"
+  },
+  "user": {
+    "$oid": "5fe241f5743a0932101b7f11"
+  },
+  "name": "user test 12",
+  "phone": "121212121",
+  "cart": {
+    "items": {
+      "5fe4979aeea5c434e0625878": {
+        "item": {
+          "tag": [
+            ""
+          ],
+          "_id": "5fe4979aeea5c434e0625878",
+          "title": "CRUSHED OIL-INFUSED GLOSS MINI TRIO",
+          "img": "bb_sku_ENJ501_1080x1080_0.jpg",
+          "brand": "bobbi brown",
+          "price": 20.05,
+          "salePrice": null,
+          "qty": 7,
+          "detail": {
+            "main_detail": {
+              "title": "WHAT IT IS",
+              "description": "A go-anywhere set of our NEW super-smooth, ultra-hydrating, non-sticky lip gloss in three ultra-flattering shades. ",
+              "feature": [
+                "Hydrogenated Polyisobutene",
+                " Polybutene",
+                " Pentaerythrityl Tetraisostearate",
+                " Ethylene/Propylene/Styrene Copolymer",
+                " C12-15 Alkyl Benzoate",
+                " Olea Europaea (Olive) Fruit Oil",
+                " Prunus Armeniaca (Apricot) Kernel Oil",
+                " Tocopheryl Acetate",
+                " Aleurites Moluccana (Kukui) Seed Oil"
+              ]
+            },
+            "sub_detail": {
+              "title": "How to use",
+              "description": "Swipe across lips and go or layer over Crushed Lip Color for a bolder look.",
+              "feature": "Swipe across lips and go or layer over Crushed Lip Color for a bolder look."
+            },
+            "sub_detail_2": "Swipe across lips and go or layer over Crushed Lip Color for a bolder look."
+          },
+          "type": "lip",
+          "createdAt": "2020-12-24T13:28:58.048Z",
+          "__v": 0
+        },
+        "qty": 2,
+        "price": 40.1
+      }
+    },
+    "totalQty": 2,
+    "totalPrice": 40.1
+  },
+  "address": {
+    "home": "dai hoc ha noi",
+    "city": "ha noi",
+    "country": "Vietnam",
+    "zip": "1000"
+  },
+  "payment": {
+    "ccname": "User Test 12",
+    "ccnumber": "1221",
+    "ccexpiration": "121212",
+    "cccvv": "121212"
+  },
+  "dateOrder": "Fri Dec 25 2020 16:40:10",
+  "__v": 0
+}]

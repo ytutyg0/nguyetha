@@ -1,0 +1,23 @@
+{{> header}}
+<div class="new-arrivals">
+  <p class="title">{{title}}</p>
+  {{#each products}}
+  <div class="box-product">
+    <div class="slide-img">
+      <a href="/products/{{this._id}}"><img src="/img/{{this.img}}"></a>
+      <div class="overlay">
+        <a href="/products/{{this._id}}"><button type="button" class="btn btn-outline-light ">BUY NOW</button></a>
+      </div>
+    </div>
+    <div class="detail-box">
+      <div class="type">
+        <a href="/products/{{this._id}}">{{this.title}}</a>
+        <br>
+        <span class="brand">{{this.brand}}</span>
+      </div>
+      <a href="/products/{{this._id}}" class="price">${{this.price}}</a>
+    </div>
+  </div>
+  {{/each}}
+</div>
+{{> footer}}

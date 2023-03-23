@@ -1,0 +1,66 @@
+{{> header}}
+<div class="container All-products">
+    <div class="mt-4">
+        <h3 class="text-center">User's Order</h3>
+        <table class="table mt-4" >
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">UserID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Items</th>
+                    <th scope="col">Total</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Status</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                    {{!-- <th scope="col"></th>
+                    <th scope="col"></th> --}}
+                </tr>
+            </thead>
+            <tbody>
+                {{#each orders}}
+                <tr>
+                    <th scope="row">{{sum @index 1}}</th>
+                    <td>{{this.user}}</td>
+                    <td>{{this.name}}</td>
+                    <td>{{#each this.item}}
+                        {{this.item.title}}
+                        <br>
+                        {{/each}}
+                    </td>
+                    <td>${{this.cart.totalPrice}}</td>
+                    <td>{{this.dateOrder}}</td>
+                    <td style="color: brown;font-weight: bold;">{{this.status}}</td>
+                        <td>
+                            <form action="/admin/updateStatus/{{this._id}}?_method=PUT" method="POST">
+                            {{#ifEquals this.status "Waiting for confirm"}}
+                                <button type="submit" class="btn btn-link" style="color: rgb(56, 165, 42);">Comfirm order</button>
+                            {{/ifEquals}}
+                            {{#ifEquals this.status "Ready to ship"}}
+                                <button type="submit" class="btn btn-link" style="color: rgb(56, 165, 42);">Deliver to the carrier</button>
+                            {{/ifEquals}}
+                            {{#ifEquals this.status "Delivered to the carrier"}}
+                                <button type="submit" class="btn btn-link" style="color: rgb(56, 165, 42);">Complete order</button>
+                            {{/ifEquals}}
+                            </form>
+                        </td>
+                         <td>
+                             <form action="/admin/updateStatus/reject/{{this._id}}?_method=PUT" method="POST">
+                            {{#ifEquals this.status "Waiting for confirm"}}
+                                <button type="submit" class="btn btn-link" style="color: rgb(165, 42, 42);">Reject order</button>
+                            {{/ifEquals}}
+                            </form>
+                        </td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+
+
+    </div>
+
+</div>
+
+{{> footer}}
