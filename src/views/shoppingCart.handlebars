@@ -27,10 +27,10 @@
                                         </a>
                                         <p class="mb-3 text-muted text-uppercase small">Giá: 
                                         {{#if this.item.salePrice}}
-                                        <small><del>${{this.item.price}}</del></small> 
-                                        <span class="sale-price">${{this.item.salePrice}}</span></p>
+                                        <small><del>{{this.item.price}} VND</del></small> 
+                                        <span class="sale-price">{{this.item.salePrice}} VND</span></p>
                                         {{else}}
-                                        ${{this.item.price}}
+                                        {{this.item.price}} VND
                                         {{/if}}
                                         <p class="mb-2 text-muted text-uppercase small">Loại: {{this.item.type}}</p>
                                         <p class="mb-3 text-muted text-uppercase small">Thương hiệu: {{this.item.brand}}</p>
@@ -49,7 +49,7 @@
                                             class="card-link-secondary small text-uppercase mr-3"><i
                                                 class="fas fa-trash-alt mr-1" ></i> Xóa sản phẩm </a>
                                     </div>
-                                    <p class="mb-0"><span><strong>${{this.price}}</strong></span></p>
+                                    <p class="mb-0"><span><strong>{{this.price}} VND</strong></span></p>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +94,7 @@
                         <li
                             class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
                             Giá trị tạm tính
-                            <span><strong>${{totalPrice}}</strong></span>
+                            <span><strong>{{totalPrice}} VND</strong></span>
                         </li>
                         <li class="list-group-item d-flex justify-content-between align-items-center px-0">
                             Vận chuyển
@@ -108,7 +108,7 @@
                                     <p class="mb-0">(bao gồm VAT)</p>
                                 </strong>
                             </div>
-                            <span><strong>${{totalPrice}}</strong></span>
+                            <span><strong>{{totalPrice}} VND</strong></span>
                         </li>
                     </ul>
                     <a href="/user/checkout" style="text-decoration: none;">

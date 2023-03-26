@@ -22,8 +22,8 @@
                     <td>{{this.title}}</td>
                     <td>{{this.brand}}</td>
                     <td>{{this.type}}</td>
-                    <td>${{this.price}}</td>
-                    <td>${{this.salePrice}}</td>
+                    <td>{{this.price}} VND</td>
+                    <td>{{this.salePrice}} VND</td>
                     <td>
                         <a href="/admin/update/{{this._id}}" role="button">Cập nhật</a>
                     </td>
@@ -50,17 +50,17 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">CONFIRM DELETE</h5>
+                <h5 class="modal-title" id="exampleModalLabel">XÁC NHẬN XÓA</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                Are you sure to delete this product?
+                Bạn có chắc muốn xóa sản phẩm?
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-danger">DELETE</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                <button type="button" class="btn btn-danger">XÓA SẢN PHẨM</button>
             </div>
         </div>
     </div>

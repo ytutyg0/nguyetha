@@ -15,10 +15,10 @@
             <div class="price">
                 <span class="price-title">
                 {{#if product.salePrice}}
-                <small><del>${{product.price}}</del></small>
-                <span class="sale-price" style="color: brown; font-weight: bold;">${{product.salePrice}}</span>
+                <small><del>{{product.price}} VND</del></small>
+                <span class="sale-price" style="color: brown; font-weight: bold;">{{product.salePrice}} VND</span>
                 {{else}}
-                ${{product.price}}
+                {{product.price}} VND
                 {{/if}}
                 </span>
                 <a href="/products/add-to-cart/{{product._id}}" class="price-btn">ADD TO CART</a>
