@@ -19,11 +19,11 @@
                             <h5>{{this.item.title}}</h5>
                             <p class="mb-3 text-muted text-uppercase small">Giá:
                                 {{#if this.item.salePrice}}
-                                <small><del>${{this.item.price}}</del></small>
-                                <span class="sale-price">${{this.item.salePrice}}</span>
+                                <small><del>{{this.item.price}} VND</del></small>
+                                <span class="sale-price">{{this.item.salePrice}} VND</span>
                             </p>
                             {{else}}
-                            ${{this.item.price}}
+                            {{this.item.price}} VND
                             {{/if}}
                             <p class="mb-2 text-muted text-uppercase small">Loại: {{this.item.type}}</p>
                             <p class="mb-3 text-muted text-uppercase small">Thương hiệu: {{this.item.brand}}</p>
@@ -53,7 +53,7 @@
                         </div>
                         <div style="text-align: center; border-top: 1 solid grey;" class="p-2">
                             <h5>Tổng tiền</h5>
-                            <p style="color: brown;"><strong>${{this.cart.totalPrice}}</strong></p>
+                            <p style="color: brown;"><strong>{{this.cart.totalPrice}} VND</strong></p>
                         </div>
                         <div style="margin-left: 60px; text-align: center;"class="p-2" >
                             <h5>Ngày đặt hàng </h5>
