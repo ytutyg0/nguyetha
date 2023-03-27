@@ -38,6 +38,7 @@ app.use(function (req, res, next) {
     if (req.user.role) {
       res.locals.isAdmin = req.user.role === "ADMIN";
     }
+    res.locals.username = req.user.name;
   }
   res.locals.session = req.session;
   next();

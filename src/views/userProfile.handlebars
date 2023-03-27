@@ -1,20 +1,20 @@
 {{> header}}
 <div class="container">
-    <div class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center" style="min-height: 600px; background-size: cover; background-position: center top;">
+    <div class="header pb-8 pt-lg-8 d-flex align-items-center" style="min-height: 400px; background-size: cover; background-position: center top;">
       <!-- Mask -->
       <span class="mask bg-gradient-default opacity-8"></span>
       <!-- Header container -->
       <div class="container-fluid d-flex align-items-center">
         <div class="row">
-          <div class="col-lg-7 col-md-10">
-            <h1 class="display-2">Hello 
+          <div class="col-lg-10 col-md-12">
+            <h1 class="display-2">Xin chào 
                 {{#if user.name}}
                 {{user.name}}
                 {{else}}
                 {{user.email}}
                 {{/if}}</h1>
-            <p class=" mt-0 mb-5">This is your profile page. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga, quaerat voluptas dolorem alias assumenda perferendis dignissimos earum maiores eligendi odit cupiditate iusto!</p>
-            <a href="/user/order" class="btn btn-dark">See my order</a>
+            <p class=" mt-0 mb-5">Đây là trang thông tin cá nhân của bạn, nơi bạn có thể quản lý tài khoản và thông tin cá nhân của mình!</p>
+            <a href="/user/order" class="btn btn-dark">Kiểm tra đơn hàng</a>
           </div>
         </div>
       </div>
@@ -27,18 +27,18 @@
             <div class="card-header bg-white border-0">
               <div class="row align-items-center">
                 <div>
-                  <h3>My account</h3>
+                  <h3>Tài khoản của tôi</h3>
                 </div>
               </div>
             </div>
             <div class="card-body">
               <form action="/user/user-profile/{{user._id}}?_method=PUT" method="POST">
-                <h6 class="heading-small text-muted mb-4">User information</h6>
+                <h6 class="heading-small text-muted mb-4">Thông tin cá nhân</h6>
                 <div class="pl-lg-4">
                   <div class="row">
                     <div class="col-lg-6">
                       <div class="form-group">
-                        <label class="form-control-label" for="input-email">Email address</label>
+                        <label class="form-control-label" for="input-email">Địa chỉ email</label>
                         <input type="email" name="email" class="form-control form-control-alternative" value="{{user.email}}" required="required">
                       </div>
                     </div>
@@ -46,18 +46,18 @@
                   <div class="row">
                     <div class="col-lg-6">
                       <div class="form-group focused">
-                        <a href="/resetpassword/{{token}}">Change password</a>
+                        <a href="/resetpassword/{{token}}">Đổi mật khẩu</a>
                       </div>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-lg-6">
                       <div class="form-group">
-                        <label class="form-control-label" >Name</label>
+                        <label class="form-control-label" >Tên của bạn</label>
                         <input type="text" class="form-control form-control-alternative" name="name" required="required"
                         {{#if user.name}}
                         value="{{user.name}}"
-                        {{/if}} placeholder="Your full name" >
+                        {{/if}} placeholder="Nhập tên đầy đủ của bạn" >
                       </div>
                     </div>
                     {{#if messages}}
@@ -67,25 +67,25 @@
                     {{/if}}
                     <div class="col-lg-6">
                       <div class="form-group">
-                        <label class="form-control-label" >Phone Number</label>
+                        <label class="form-control-label" >Số điện thoại</label>
                         <input type="text" class="form-control form-control-alternative" name="phone" 
                         pattern="[0-9]{8,15}" title="Phone number must have 8-15 digits" required="required"
                         {{#if user.phone}}
                         value="{{user.phone}}"
-                        {{/if}} placeholder="0123456789">
+                        {{/if}} placeholder="Nhập số điện thoại của bạn">
                       </div>
                     </div>
                   </div>
                 </div>
                 <hr class="my-4">
                 <!-- Address -->
-                <h6 class="heading-small text-muted mb-4">Contact information</h6>
+                <h6 class="heading-small text-muted mb-4">Thông tin liên lạc</h6>
                 <div class="pl-lg-4">
                   <div class="row">
                     <div class="col-md-12">
                       <div class="form-group focused">
-                        <label class="form-control-label" for="input-address">Address</label>
-                        <input class="form-control form-control-alternative" name="address" placeholder="Home Address" required="required"
+                        <label class="form-control-label" for="input-address">Địa chỉ</label>
+                        <input class="form-control form-control-alternative" name="address" placeholder="Nhập địa chỉ của bạn" required="required"
                         {{#if user.address}}
                         value="{{user.address}}"
                         {{/if}}
@@ -96,8 +96,8 @@
                   <div class="row">
                     <div class="col-lg-4">
                       <div class="form-group focused">
-                        <label class="form-control-label" for="input-city">City</label>
-                        <input type="text" class="form-control form-control-alternative"name="city" placeholder="City" required="required"
+                        <label class="form-control-label" for="input-city">Thành phố</label>
+                        <input type="text" class="form-control form-control-alternative"name="city" placeholder="Nhập tên thành phố" required="required"
                         {{#if user.city}}
                         value="{{user.city}}"
                         {{/if}}>
@@ -105,8 +105,8 @@
                     </div>
                     <div class="col-lg-4">
                       <div class="form-group focused">
-                        <label class="form-control-label" for="input-country">Country</label>
-                        <input type="text" class="form-control form-control-alternative" name="country" placeholder="Country" required="required"
+                        <label class="form-control-label" for="input-country">Quốc gia</label>
+                        <input type="text" class="form-control form-control-alternative" name="country" placeholder="Quốc gia của bạn" required="required"
                         {{#if user.country}}
                         value="{{user.country}}"
                         {{/if}}>
@@ -114,8 +114,8 @@
                     </div>
                     <div class="col-lg-4">
                       <div class="form-group">
-                        <label class="form-control-label" for="input-country">Postal code</label>
-                        <input type="text" name="postalCode" class="form-control form-control-alternative" placeholder="Postal code" 
+                        <label class="form-control-label" for="input-country">Mã bưu điện</label>
+                        <input type="text" name="postalCode" class="form-control form-control-alternative" placeholder="VD: 150000" 
                         pattern="[0-9]{6}" title="PostalCode must have 6 digits" required="required"
                         {{#if user.postalCode}}
                         value="{{user.postalCode}}"
@@ -124,7 +124,7 @@
                     </div>
                   </div>
                 </div>
-                <input type="submit" name="submit" value="Change profile" class="btn btn-dark" style="margin: 30px auto">
+                <input type="submit" name="submit" value="Xác nhận thay đổi" class="btn btn-dark" style="margin: 30px auto">
               </form>
             </div>
           </div>

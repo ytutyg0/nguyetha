@@ -17,12 +17,12 @@
                         <h6 class="my-0">{{this.item.title}}</h6>
                         <small class="text-muted">Số lượng : {{this.qty}}</small>
                     </div>
-                    <span class="text-muted">${{this.price}}</span>
+                    <span class="text-muted">{{this.price}} VND</span>
                 </li>
                 {{/each}}
                 <li class="list-group-item d-flex justify-content-between">
-                    <span>Tổng tiền (VND)</span>
-                    <strong>${{totalPrice}}</strong>
+                    <span>Tổng tiền</span>
+                    <strong>{{totalPrice}} VND</strong>
                 </li>
             </ul>
         </div>
