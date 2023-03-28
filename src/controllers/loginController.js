@@ -3,7 +3,8 @@ const passport = require('passport');
 class LoginController {
     // [GET] /login
     login(req, res, next){
-        const messages = req.flash('error');
+        let messages = req.flash('error');
+        if (messages[0] === "Missing credentials") messages[0] = "Thiếu thông tin đăng nhập"
         res.render('login', {csrfToken : req.csrfToken(), messages: messages, hasErrors: messages.length > 0});
     }
     // [GET] /logout
