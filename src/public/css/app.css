@@ -195,7 +195,7 @@
     height: 18px;
     background-color: transparent;
     position: absolute;
-    margin-top: 60px;
+    margin-top: 33px;
     z-index: 1000;
   }
 
@@ -433,7 +433,6 @@
   color: #999;
   font-size: 0.9rem;
   transition: 0.3s;
-  transform: translateY(-1.2rem);
 }
 .containerLogin .forgotpwd a:hover {
   color: rgba(155, 8, 8, 0.925);
@@ -509,7 +508,6 @@
   position: relative;
   display: grid;
   grid-template-columns: 7% 93%;
-  margin: 25px 0;
   padding: 5px 0;
   border-bottom: 2px solid #d9d9d9;
 }
@@ -797,4 +795,49 @@ footer .segment-four .submitEmail:hover {
 
 .user {
   margin-right: 8%;
+}
+
+.signup-field-icon {
+}
+
+.signup-field-wrap {
+  position: relative;
+  margin-top: 44px;
+}
+
+.signup-field-wrap .input {
+  padding: 0.5rem 0.7rem;
+  line-height: 28.8px;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.signup-field-wrap .input:focus {
+  outline: none;
+}
+
+.signup-field-icon .form-icon {
+  color: #a5a5a5;
+}
+
+.signup-field-error-msg {
+  top: 100%;
+  position: absolute;
+  width: 100%;
+  color: red;
+  padding-left: 8.3333%;
+  text-align: start;
+  padding-top: 2px;
+  border-top: 2px solid #d9d9d9;
+  font-size: 0.9rem;
+}
+
+.border-top-error {
+  border-top-color: red !important;
+}
+
+.user-profile-error-msg {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 2px;
 }

@@ -22,12 +22,12 @@ class passwordController {
             },
             function(token, done){
                 if(!req.body.email){
-                    req.flash('error','Please enter an E-mail. ');
+                    req.flash('error','Vui lòng nhập địa chỉ email của bạn. ');
                     return res.redirect('/resetpassword');
                 }
                 User.findOne({email: req.body.email}, function(err, user){
                     if(!user){
-                        req.flash('error','No account with that E-mail exists. ');
+                        req.flash('error','Không tồn tại tài khoản với email này. ');
                         return res.redirect('/resetpassword');
                     }
                     user.resetPasswordToken = token;
@@ -40,25 +40,25 @@ class passwordController {
                 var smtTransport = nodemailer.createTransport({
                     service: 'gmail',
                     auth: {
-                    user: '1801040157@s.hanu.edu.vn',
-                    pass: '1801040157'
+                    user: 'ytutygfp0@gmail.com',
+                    pass: 'yoxpfrzkdkadidgs'
                     }
                 });
                 var mailOptions = {
-                    from: '1801040157@s.hanu.edu',
+                    from: 'ytutygfp0@gmail.com',
                     to: user.email,
-                    subject: 'Account Activation Link from KIMI COSMETIC',
-                    text: 'You are receiving this beacause you have requested the reset of the password for KIMI COSMETIC'
+                    subject: 'Liên kết kích hoạt tài khoản từ ORCHID COSMETIC',
+                    text: 'Bạn nhận được thư này vì đã yêu cầu thay đổi mật khẩu cho ORCHID COSMETIC'
                     +'\n\n'+
                     'http://'+req.headers.host+'/resetpassword/'+token +'\n\n'+
-                    'If you did not request this, please ignore this email'
+                    'Nếu bạn không yêu cầu, vui lòng bỏ qua thư'
                 };
                 smtTransport.sendMail(mailOptions, function(err){
                     if(!err){
                         console.log('email sent');
                         res.render('emailSent');
                     }else{
-                        req.flash('error','Failed to send request to'+ user.email);
+                        req.flash('error','Không thể gửi email tới'+ user.email);
                         res.redirect('/resetpassword');
                     }
                 })
@@ -69,7 +69,7 @@ class passwordController {
     resetPassword(req, res, next){
         User.findOne({resetPasswordToken: req.params.token}, function(err, user){
             if(!user){
-                req.flash('error','No account with that E-mail exists. ');
+                req.flash('error','Không tồn tại tài khoản với email này. ');
                 return res.redirect('/resetpassword');
             }
             res.render('changePassword', {csrfToken: req.csrfToken(), token: req.params.token});
@@ -86,7 +86,7 @@ class passwordController {
                 }
                 User.findOne({resetPasswordToken: req.params.token}, function(err, user){
                     if(!user){
-                        req.flash('error', 'Password reset token is invalid or has expired. ');
+                        req.flash('error', 'Yêu cầu thay đổi tài khoản không hợp lệ hoặc đã hết hạn. ');
                         return res.redirect('back');
                     }
                     if(req.body.password === req.body.passwordConfirm){
@@ -99,7 +99,7 @@ class passwordController {
                             return done(null, user)
                         });
                     }else{
-                        req.flash('error', 'Passwords do not match!');
+                        req.flash('error', 'Mật khẩu không khớp!');
                         return res.redirect('/resetpassword/'+ req.params.token);
                     }
                 })
@@ -108,23 +108,23 @@ class passwordController {
                 var smtTransport = nodemailer.createTransport({
                     service: 'gmail',
                     auth: {
-                    user: '1801040157@s.hanu.edu.vn',
-                    pass: '1801040157'
+                    user: 'ytutygfp0@gmail.com',
+                    pass: 'yoxpfrzkdkadidgs'
                     }
                 });
                 var mailOptions = {
-                    from: '1801040157@s.hanu.edu',
+                    from: 'ytutygfp0@gmail.com',
                     to: user.email,
-                    subject: 'Your Password has been changed',
-                    text: 'Hello,\n\n'+
-                    'This is a confirmation that the password for your account '+user.email+'has just been changed sucessfully'
+                    subject: 'Mật khẩu của bạn đã được thay đổi',
+                    text: 'Xin chào,\n\n'+
+                    'Đây là thư xác nhận mật khẩu cho tài khoản '+user.email+' của bạn đã được thay đổi thành công'
                 };
                 smtTransport.sendMail(mailOptions, function(err){
                     if(!err){
                         // return res.render('home',{csrfToken: req.csrfToken()});
                         return res.redirect('/');
                     }else{
-                        req.flash('error','Failed to send request to'+ user.email);
+                        req.flash('error','Không thể gửi email tới'+ user.email);
                         return res.render('resetpassword');
                     }
                 })

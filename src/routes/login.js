@@ -6,8 +6,8 @@ const LoginController = require('../controllers/loginController');
 
 router.get('/',LoginController.login);
 router.post('/',[
-    check('email', 'Email is not valid').isEmail(),
-    check('password', 'Password is not valid').not().isEmpty()
+    check('email', 'Email không hợp lệ').isEmail(),
+    check('password', 'Sai mật khẩu').not().isEmpty()
 ], LoginController.login_POST);
 
 module.exports = router;
